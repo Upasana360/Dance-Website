@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title My Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo2.jpg")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") ClassInfo]
+            li #[a(href="/contact") ContactUs]
+
+    section#introSection
+        div Welcome To Maggie's Dance Academy
+        div.small Dance Like a Bird
+    section#cardSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/logo5.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe.
+        div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/logo4.png")
+                div.card-content
+                    p This is the best dance academy of the universe.
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/logo5.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe.
+
+    section#sponsorsSection
+        h2 Our Sponsers
+        div#sponsors
+            img(src="/static/sponser1.png" alt="Sponser Image" class="spImage")
+            img(src="/static/sponser2.png" alt="Sponser Image" class="spImage")
+
+            img(src="/static/sponser3.jpg" alt="Sponser Image" class="spImage")
+
+            img(src="/static/sponser4.png" alt="Sponser Image" class="spImage")
+            //- img(src="/static/sponser5.png" alt="Sponser Image" class="spImage")
+
+
+    footer#footer
+        p Copyright@ 2020 Maggie Dance Academy.com
+
+    script
+      include ../static/index.js

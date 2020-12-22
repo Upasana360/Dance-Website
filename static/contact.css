@@ -1,0 +1,52 @@
+h1{
+    text-align: center; 
+    margin:12px 0px;
+    text-decoration: underline;
+}
+.myContact{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   margin:70px 10px;
+  
+}
+.myInput{
+    width:42%;
+    margin:10px 10px;
+    padding:10px 10px;
+    border:2px solid black;
+    border-radius: 24px;
+    outline: none;
+}
+.btn{
+    margin-top: 22px;
+    padding: 10px 49px;
+    border: 2px solid black;
+    border-radius: 22px;
+    font-size: 15px;
+    background-color: #131211;
+    color: white;
+    outline: none;
+}
+.btn:hover{
+    background-color: brown;
+    color:black;
+}
+#footer p{
+    margin-top: -1px;
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 10px;
+}
+.container{
+    border:2px solid black;
+    margin: 130px;
+    background-color: rgb(255,255,0);
+}
+/* body{
+    background-color: blueviolet;
+} */

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+doctype html
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+#logo{
+    display:flex;
+    color:white;
+    align-items: center;
+    margin:0 14px;
+    font-size: 21px;
+    margin-right: 40px;
+}
+#logo img{
+    display: flex;
+    align-items: center;
+    margin: 0px 9px;
+    color: white;
+    filter: invert(100%);
+    height: 31px;
+    width: 37px;
+    border-radius: 5px;
+}
+#navbar{
+    background-color:#e11313;
+    padding:3px 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding:0px 10px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding:16px 18px;
+    color:white; 
+    font-size: 20px;
+}
+#navbar li a:hover{ 
+    color:black;
+}
+.small{
+    font-size: 25px;
+    padding:5px;
+
+}
+#navbar li{
+    list-style: none;
+}
+#introSection{
+    height:300px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center/cover no-repeat url('/static/dance2.jpeg');
+    background-color: red;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom:40px;
+
+}
+#cardSection{
+    height:322px;
+    background-color:#fabb8e;
+    text-align: center;
+    color: rgb(34, 15, 15);
+    padding-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.card{
+    border:2px solid black;
+    border-radius: 10px;
+    width:19%;
+    height:170px;
+    margin:48px 43px;
+    display:inline-block;
+    background-color:#e91e6329;
+}
+.card-box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height:100px;
+    padding:0px 14px;
+    margin:-10px -13px;
+}
+.card-img img{
+    /* height:inherit; */
+    height: 96px;
+    filter: invert(1);
+    margin-left: 20px;
+}
+.card h3{
+    padding-top: 0px;
+}
+.card-content{
+    padding:0px 24px;
+}
+        
+.card-content p{
+font-size:15px;
+    }
+#sponsorsSection{
+    height:300px;
+    background-color:pink;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+
+}
+#sponsors{
+    height: 160px;
+    max-width: 768px;
+    margin: 40px 90px;
+    display: flex;
+
+}
+.spImage{
+    margin: -6px 31px;
+    margin-top:10px;
+    height:108px;
+    border-radius: 22px
+}
+#footer{
+     height:50px;
+    background-color:black;
+    color:white;
+    text-align: center;
+
+}
